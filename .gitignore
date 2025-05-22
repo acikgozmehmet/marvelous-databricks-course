@@ -106,4 +106,4 @@ tests/mlruns
 notebooks/logs
 Makefile
 make_doc.sh
-docs/
+# docs/
