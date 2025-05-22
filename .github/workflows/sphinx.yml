@@ -40,7 +40,7 @@ jobs:
 
       - name: Install the dependencies
         run: |
-          uv sync --extra test 
+          uv sync --extra test
           uv pip install sphinx sphinx_rtd_theme ghp-import sphinxcontrib-video
           source .venv/bin/activate
 

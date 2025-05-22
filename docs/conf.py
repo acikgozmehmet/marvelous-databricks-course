@@ -22,7 +22,13 @@ release = "0.1.1"
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ["sphinx.ext.autodoc", "sphinx.ext.viewcode", "sphinx.ext.napoleon", "sphinxcontrib.video"]
+extensions = [
+    "sphinx.ext.autodoc",
+    "sphinx.ext.viewcode",
+    "sphinx.ext.napoleon",
+    "sphinxcontrib.video",
+    "sphinxcontrib.youtube",
+]
 
 templates_path = ["_templates"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
@@ -44,7 +50,7 @@ html_theme_options = {
 html_static_path = ["_static"]
 
 
-def setup(app) -> None:
+def setup(app: object) -> None:
     """Set up the Sphinx application by adding a custom CSS file.
 
     :param app: The Sphinx application object to configure.
