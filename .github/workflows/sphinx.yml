@@ -63,4 +63,4 @@ jobs:
           make html
       - name: Run ghp-import
         run: |
-          ghp-import -n -p -f docs/_build/html
+          uv run ghp-import -n -p -f docs/_build/html
