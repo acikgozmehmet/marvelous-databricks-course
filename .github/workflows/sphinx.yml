@@ -38,6 +38,7 @@ jobs:
         run: |
           uv sync --extra test 
           uv pip install sphinx sphinx_rtd_theme ghp-import
+          source .venv/bin/activate
 
       # - name: Set up Python 3.10
       #   uses: actions/setup-python@v2
