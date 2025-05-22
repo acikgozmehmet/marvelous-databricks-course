@@ -104,6 +104,6 @@ test-reports
 tests/mlruns
 .databricks
 notebooks/logs
-Makefile
+# Makefile
 make_doc.sh
 # docs/
