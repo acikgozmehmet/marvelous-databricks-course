@@ -44,5 +44,9 @@ html_theme_options = {
 html_static_path = ["_static"]
 
 
-def setup(app):
+def setup(app) -> None:
+    """Set up the Sphinx application by adding a custom CSS file.
+
+    :param app: The Sphinx application object to configure.
+    """
     app.add_css_file("css/customWidth.css")
