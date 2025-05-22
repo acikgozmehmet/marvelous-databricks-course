@@ -27,7 +27,7 @@ extensions = [
     "sphinx.ext.viewcode",
     "sphinx.ext.napoleon",
     "sphinxcontrib.video",
-    "sphinxcontrib-youtube",
+    "sphinxcontrib.youtube",
 ]
 
 templates_path = ["_templates"]

@@ -801,14 +801,12 @@ dependencies = [
 dev = [
     { name = "databricks-connect" },
     { name = "ipykernel" },
-    { name = "marvelous" },
     { name = "pip" },
     { name = "pre-commit" },
     { name = "pytest" },
 ]
 test = [
     { name = "delta-spark" },
-    { name = "marvelous" },
     { name = "pre-commit" },
     { name = "pydantic-settings" },
     { name = "pyspark" },
@@ -828,8 +826,6 @@ requires-dist = [
     { name = "ipykernel", marker = "extra == 'dev'", specifier = ">=6.29.5,<7" },
     { name = "lightgbm", specifier = "==4.5.0" },
     { name = "loguru", specifier = "==0.7.3" },
-    { name = "marvelous", marker = "extra == 'dev'", git = "https://github.com/end-to-end-mlops-databricks-3/marvelous?rev=0.1.0" },
-    { name = "marvelous", marker = "extra == 'test'", git = "https://github.com/end-to-end-mlops-databricks-3/marvelous?rev=0.1.0" },
     { name = "matplotlib", specifier = "==3.9.2" },
     { name = "mlflow", specifier = "==2.17.0" },
     { name = "numpy", specifier = "==1.26.4" },
@@ -1127,15 +1123,6 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/69/84/83439e16197337b8b14b6a5b9c2105fff81d42c2a7c5b58ac7b62ee2c3b1/MarkupSafe-3.0.2-cp311-cp311-musllinux_1_2_x86_64.whl", hash = "sha256:0bff5e0ae4ef2e1ae4fdf2dfd5b76c75e5c2fa4132d05fc1b0dabcd20c7e28c4", size = 23306, upload-time = "2024-10-18T15:21:10.185Z" },
     { url = "https://files.pythonhosted.org/packages/9a/34/a15aa69f01e2181ed8d2b685c0d2f6655d5cca2c4db0ddea775e631918cd/MarkupSafe-3.0.2-cp311-cp311-win32.whl", hash = "sha256:6c89876f41da747c8d3677a2b540fb32ef5715f97b66eeb0c6b66f5e3ef6f59d", size = 15094, upload-time = "2024-10-18T15:21:11.005Z" },
     { url = "https://files.pythonhosted.org/packages/da/b8/3a3bd761922d416f3dc5d00bfbed11f66b1ab89a0c2b6e887240a30b0f6b/MarkupSafe-3.0.2-cp311-cp311-win_amd64.whl", hash = "sha256:70a87b411535ccad5ef2f1df5136506a10775d267e197e4cf531ced10537bd6b", size = 15521, upload-time = "2024-10-18T15:21:12.911Z" },
-]
-
-[[package]]
-name = "marvelous"
-version = "0.1.0"
-source = { git = "https://github.com/end-to-end-mlops-databricks-3/marvelous?rev=0.1.0#7fc6264a3f6c1401662fa2ce0d31972b50d0d0fb" }
-dependencies = [
-    { name = "loguru" },
-    { name = "requests" },
 ]
 
 [[package]]

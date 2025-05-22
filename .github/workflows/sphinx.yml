@@ -41,7 +41,7 @@ jobs:
       - name: Install the dependencies
         run: |
           uv sync --extra test
-          uv pip install sphinx sphinx_rtd_theme ghp-import sphinxcontrib-video
+          uv pip install sphinx sphinx_rtd_theme ghp-import sphinxcontrib-video sphinxcontrib-youtube
           source .venv/bin/activate
 
       # - name: Set up Python 3.10
