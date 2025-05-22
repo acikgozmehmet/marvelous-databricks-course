@@ -34,7 +34,7 @@ jobs:
 
       - name: Install the dependencies
         run: |
-          uv sync --extra test
+          uv sync --extra test --no-install-package marvelous
 
       - name: Run pre-commit checks
         run: |
