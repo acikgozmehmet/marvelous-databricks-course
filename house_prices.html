@@ -1,0 +1,417 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>house_prices package &mdash; house_prices 0.1.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="_static/css/customWidth.css?v=fe81ccc1" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=a58bc63e"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="house_prices.models package" href="house_prices.models.html" />
+    <link rel="prev" title="house_prices" href="modules.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            house_prices
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Getting Started:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="resources/getting_started.html">Getting Started</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">house_prices</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">house_prices package</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#subpackages">Subpackages</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="house_prices.models.html">house_prices.models package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-house_prices.config">house_prices.config module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#house_prices.config.ProjectConfig"><code class="docutils literal notranslate"><span class="pre">ProjectConfig</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#house_prices.config.Tags"><code class="docutils literal notranslate"><span class="pre">Tags</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#module-house_prices.data_processor">house_prices.data_processor module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#house_prices.data_processor.DataProcessor"><code class="docutils literal notranslate"><span class="pre">DataProcessor</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#module-house_prices.utils">house_prices.utils module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#house_prices.utils.adjust_predictions"><code class="docutils literal notranslate"><span class="pre">adjust_predictions()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#module-house_prices">Module contents</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#house_prices.get_version"><code class="docutils literal notranslate"><span class="pre">get_version()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">house_prices</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="modules.html">house_prices</a></li>
+      <li class="breadcrumb-item active">house_prices package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/house_prices.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="house-prices-package">
+<h1>house_prices package<a class="headerlink" href="#house-prices-package" title="Link to this heading"></a></h1>
+<section id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Link to this heading"></a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="house_prices.models.html">house_prices.models package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="house_prices.models.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="house_prices.models.html#module-house_prices.models.basic_model">house_prices.models.basic_model module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="house_prices.models.html#house_prices.models.basic_model.BasicModel"><code class="docutils literal notranslate"><span class="pre">BasicModel</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="house_prices.models.html#house_prices.models.basic_model.BasicModel.load_data"><code class="docutils literal notranslate"><span class="pre">BasicModel.load_data()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="house_prices.models.html#house_prices.models.basic_model.BasicModel.load_latest_model_and_predict"><code class="docutils literal notranslate"><span class="pre">BasicModel.load_latest_model_and_predict()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="house_prices.models.html#house_prices.models.basic_model.BasicModel.log_model"><code class="docutils literal notranslate"><span class="pre">BasicModel.log_model()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="house_prices.models.html#house_prices.models.basic_model.BasicModel.prepare_features"><code class="docutils literal notranslate"><span class="pre">BasicModel.prepare_features()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="house_prices.models.html#house_prices.models.basic_model.BasicModel.register_model"><code class="docutils literal notranslate"><span class="pre">BasicModel.register_model()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="house_prices.models.html#house_prices.models.basic_model.BasicModel.retrieve_current_run_dataset"><code class="docutils literal notranslate"><span class="pre">BasicModel.retrieve_current_run_dataset()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="house_prices.models.html#house_prices.models.basic_model.BasicModel.retrieve_current_run_metadata"><code class="docutils literal notranslate"><span class="pre">BasicModel.retrieve_current_run_metadata()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="house_prices.models.html#house_prices.models.basic_model.BasicModel.train"><code class="docutils literal notranslate"><span class="pre">BasicModel.train()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="house_prices.models.html#module-house_prices.models.custom_model">house_prices.models.custom_model module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="house_prices.models.html#house_prices.models.custom_model.CustomModel"><code class="docutils literal notranslate"><span class="pre">CustomModel</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="house_prices.models.html#house_prices.models.custom_model.CustomModel.load_data"><code class="docutils literal notranslate"><span class="pre">CustomModel.load_data()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="house_prices.models.html#house_prices.models.custom_model.CustomModel.load_latest_model_and_predict"><code class="docutils literal notranslate"><span class="pre">CustomModel.load_latest_model_and_predict()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="house_prices.models.html#house_prices.models.custom_model.CustomModel.log_model"><code class="docutils literal notranslate"><span class="pre">CustomModel.log_model()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="house_prices.models.html#house_prices.models.custom_model.CustomModel.prepare_features"><code class="docutils literal notranslate"><span class="pre">CustomModel.prepare_features()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="house_prices.models.html#house_prices.models.custom_model.CustomModel.register_model"><code class="docutils literal notranslate"><span class="pre">CustomModel.register_model()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="house_prices.models.html#house_prices.models.custom_model.CustomModel.retrieve_current_run_dataset"><code class="docutils literal notranslate"><span class="pre">CustomModel.retrieve_current_run_dataset()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="house_prices.models.html#house_prices.models.custom_model.CustomModel.retrieve_current_run_metadata"><code class="docutils literal notranslate"><span class="pre">CustomModel.retrieve_current_run_metadata()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="house_prices.models.html#house_prices.models.custom_model.CustomModel.train"><code class="docutils literal notranslate"><span class="pre">CustomModel.train()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="house_prices.models.html#house_prices.models.custom_model.HousePriceModelWrapper"><code class="docutils literal notranslate"><span class="pre">HousePriceModelWrapper</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="house_prices.models.html#house_prices.models.custom_model.HousePriceModelWrapper.predict"><code class="docutils literal notranslate"><span class="pre">HousePriceModelWrapper.predict()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="house_prices.models.html#module-house_prices.models">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Link to this heading"></a></h2>
+</section>
+<section id="module-house_prices.config">
+<span id="house-prices-config-module"></span><h2>house_prices.config module<a class="headerlink" href="#module-house_prices.config" title="Link to this heading"></a></h2>
+<p>Configuration file for the project.</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="house_prices.config.ProjectConfig">
+<em class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">house_prices.config.</span></span><span class="sig-name descname"><span class="pre">ProjectConfig</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="keyword-only-separator o"><abbr title="Keyword-only parameters separator (PEP 3102)"><span class="pre">*</span></abbr></span></em>, <em class="sig-param"><span class="n"><span class="pre">num_features</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cat_features</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">target</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">catalog_name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">schema_name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parameters</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">experiment_name_basic</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">experiment_name_custom</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/house_prices/config.html#ProjectConfig"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#house_prices.config.ProjectConfig" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">BaseModel</span></code></p>
+<p>Represent project configuration parameters loaded from YAML.</p>
+<p>Handles feature specifications, catalog details, and experiment parameters.
+Supports environment-specific configuration overrides.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="house_prices.config.ProjectConfig.cat_features">
+<span class="sig-name descname"><span class="pre">cat_features</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#house_prices.config.ProjectConfig.cat_features" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="house_prices.config.ProjectConfig.catalog_name">
+<span class="sig-name descname"><span class="pre">catalog_name</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><a class="headerlink" href="#house_prices.config.ProjectConfig.catalog_name" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="house_prices.config.ProjectConfig.experiment_name_basic">
+<span class="sig-name descname"><span class="pre">experiment_name_basic</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#house_prices.config.ProjectConfig.experiment_name_basic" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="house_prices.config.ProjectConfig.experiment_name_custom">
+<span class="sig-name descname"><span class="pre">experiment_name_custom</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#house_prices.config.ProjectConfig.experiment_name_custom" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="house_prices.config.ProjectConfig.from_yaml">
+<em class="property"><span class="k"><span class="pre">classmethod</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">from_yaml</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">config_path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">env</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'dev'</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#house_prices.config.ProjectConfig" title="house_prices.config.ProjectConfig"><span class="pre">ProjectConfig</span></a></span></span><a class="reference internal" href="_modules/house_prices/config.html#ProjectConfig.from_yaml"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#house_prices.config.ProjectConfig.from_yaml" title="Link to this definition"></a></dt>
+<dd><p>Load and parse configuration settings from a YAML file.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>config_path</strong> – Path to the YAML configuration file</p></li>
+<li><p><strong>env</strong> – Environment name to load environment-specific settings</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>ProjectConfig instance initialized with parsed configuration</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="house_prices.config.ProjectConfig.model_computed_fields">
+<span class="sig-name descname"><span class="pre">model_computed_fields</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">ClassVar</span><span class="p"><span class="pre">[</span></span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">ComputedFieldInfo</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{}</span></em><a class="headerlink" href="#house_prices.config.ProjectConfig.model_computed_fields" title="Link to this definition"></a></dt>
+<dd><p>A dictionary of computed field names and their corresponding <cite>ComputedFieldInfo</cite> objects.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="house_prices.config.ProjectConfig.model_config">
+<span class="sig-name descname"><span class="pre">model_config</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">ClassVar</span><span class="p"><span class="pre">[</span></span><span class="pre">ConfigDict</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{}</span></em><a class="headerlink" href="#house_prices.config.ProjectConfig.model_config" title="Link to this definition"></a></dt>
+<dd><p>Configuration for the model, should be a dictionary conforming to [<cite>ConfigDict</cite>][pydantic.config.ConfigDict].</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="house_prices.config.ProjectConfig.model_fields">
+<span class="sig-name descname"><span class="pre">model_fields</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">ClassVar</span><span class="p"><span class="pre">[</span></span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">FieldInfo</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{'cat_features':</span> <span class="pre">FieldInfo(annotation=list[str],</span> <span class="pre">required=True),</span> <span class="pre">'catalog_name':</span> <span class="pre">FieldInfo(annotation=str,</span> <span class="pre">required=True),</span> <span class="pre">'experiment_name_basic':</span> <span class="pre">FieldInfo(annotation=Union[str,</span> <span class="pre">NoneType],</span> <span class="pre">required=True),</span> <span class="pre">'experiment_name_custom':</span> <span class="pre">FieldInfo(annotation=Union[str,</span> <span class="pre">NoneType],</span> <span class="pre">required=True),</span> <span class="pre">'num_features':</span> <span class="pre">FieldInfo(annotation=list[str],</span> <span class="pre">required=True),</span> <span class="pre">'parameters':</span> <span class="pre">FieldInfo(annotation=dict[str,</span> <span class="pre">Any],</span> <span class="pre">required=True),</span> <span class="pre">'schema_name':</span> <span class="pre">FieldInfo(annotation=str,</span> <span class="pre">required=True),</span> <span class="pre">'target':</span> <span class="pre">FieldInfo(annotation=str,</span> <span class="pre">required=True)}</span></em><a class="headerlink" href="#house_prices.config.ProjectConfig.model_fields" title="Link to this definition"></a></dt>
+<dd><p>Metadata about the fields defined on the model,
+mapping of field names to [<cite>FieldInfo</cite>][pydantic.fields.FieldInfo] objects.</p>
+<p>This replaces <cite>Model.__fields__</cite> from Pydantic V1.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="house_prices.config.ProjectConfig.num_features">
+<span class="sig-name descname"><span class="pre">num_features</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#house_prices.config.ProjectConfig.num_features" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="house_prices.config.ProjectConfig.parameters">
+<span class="sig-name descname"><span class="pre">parameters</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></em><a class="headerlink" href="#house_prices.config.ProjectConfig.parameters" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="house_prices.config.ProjectConfig.schema_name">
+<span class="sig-name descname"><span class="pre">schema_name</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><a class="headerlink" href="#house_prices.config.ProjectConfig.schema_name" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="house_prices.config.ProjectConfig.target">
+<span class="sig-name descname"><span class="pre">target</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><a class="headerlink" href="#house_prices.config.ProjectConfig.target" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="house_prices.config.Tags">
+<em class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">house_prices.config.</span></span><span class="sig-name descname"><span class="pre">Tags</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="keyword-only-separator o"><abbr title="Keyword-only parameters separator (PEP 3102)"><span class="pre">*</span></abbr></span></em>, <em class="sig-param"><span class="n"><span class="pre">git_sha</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">branch</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">job_run_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/house_prices/config.html#Tags"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#house_prices.config.Tags" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">BaseModel</span></code></p>
+<p>Represents a set of tags for a Git commit.</p>
+<p>Contains information about the Git SHA, branch, and job run ID.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="house_prices.config.Tags.branch">
+<span class="sig-name descname"><span class="pre">branch</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><a class="headerlink" href="#house_prices.config.Tags.branch" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="house_prices.config.Tags.git_sha">
+<span class="sig-name descname"><span class="pre">git_sha</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><a class="headerlink" href="#house_prices.config.Tags.git_sha" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="house_prices.config.Tags.job_run_id">
+<span class="sig-name descname"><span class="pre">job_run_id</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><a class="headerlink" href="#house_prices.config.Tags.job_run_id" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="house_prices.config.Tags.model_computed_fields">
+<span class="sig-name descname"><span class="pre">model_computed_fields</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">ClassVar</span><span class="p"><span class="pre">[</span></span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">ComputedFieldInfo</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{}</span></em><a class="headerlink" href="#house_prices.config.Tags.model_computed_fields" title="Link to this definition"></a></dt>
+<dd><p>A dictionary of computed field names and their corresponding <cite>ComputedFieldInfo</cite> objects.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="house_prices.config.Tags.model_config">
+<span class="sig-name descname"><span class="pre">model_config</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">ClassVar</span><span class="p"><span class="pre">[</span></span><span class="pre">ConfigDict</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{}</span></em><a class="headerlink" href="#house_prices.config.Tags.model_config" title="Link to this definition"></a></dt>
+<dd><p>Configuration for the model, should be a dictionary conforming to [<cite>ConfigDict</cite>][pydantic.config.ConfigDict].</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="house_prices.config.Tags.model_fields">
+<span class="sig-name descname"><span class="pre">model_fields</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">ClassVar</span><span class="p"><span class="pre">[</span></span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">FieldInfo</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{'branch':</span> <span class="pre">FieldInfo(annotation=str,</span> <span class="pre">required=True),</span> <span class="pre">'git_sha':</span> <span class="pre">FieldInfo(annotation=str,</span> <span class="pre">required=True),</span> <span class="pre">'job_run_id':</span> <span class="pre">FieldInfo(annotation=str,</span> <span class="pre">required=True)}</span></em><a class="headerlink" href="#house_prices.config.Tags.model_fields" title="Link to this definition"></a></dt>
+<dd><p>Metadata about the fields defined on the model,
+mapping of field names to [<cite>FieldInfo</cite>][pydantic.fields.FieldInfo] objects.</p>
+<p>This replaces <cite>Model.__fields__</cite> from Pydantic V1.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-house_prices.data_processor">
+<span id="house-prices-data-processor-module"></span><h2>house_prices.data_processor module<a class="headerlink" href="#module-house_prices.data_processor" title="Link to this heading"></a></h2>
+<p>Data preprocessing module.</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="house_prices.data_processor.DataProcessor">
+<em class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">house_prices.data_processor.</span></span><span class="sig-name descname"><span class="pre">DataProcessor</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pandas_df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">config</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#house_prices.config.ProjectConfig" title="house_prices.config.ProjectConfig"><span class="pre">ProjectConfig</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">spark</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">SparkSession</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/house_prices/data_processor.html#DataProcessor"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#house_prices.data_processor.DataProcessor" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>A class for preprocessing and managing DataFrame operations.</p>
+<p>This class handles data preprocessing, splitting, and saving to Databricks tables.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="house_prices.data_processor.DataProcessor.enable_change_data_feed">
+<span class="sig-name descname"><span class="pre">enable_change_data_feed</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="reference internal" href="_modules/house_prices/data_processor.html#DataProcessor.enable_change_data_feed"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#house_prices.data_processor.DataProcessor.enable_change_data_feed" title="Link to this definition"></a></dt>
+<dd><p>Enable Change Data Feed for train and test set tables.</p>
+<p>This method alters the tables to enable Change Data Feed functionality.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="house_prices.data_processor.DataProcessor.preprocess">
+<span class="sig-name descname"><span class="pre">preprocess</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="reference internal" href="_modules/house_prices/data_processor.html#DataProcessor.preprocess"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#house_prices.data_processor.DataProcessor.preprocess" title="Link to this definition"></a></dt>
+<dd><p>Preprocess the DataFrame stored in self.df.</p>
+<p>This method handles missing values, converts data types, and performs feature engineering.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="house_prices.data_processor.DataProcessor.save_to_catalog">
+<span class="sig-name descname"><span class="pre">save_to_catalog</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">train_set</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">test_set</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">DataFrame</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="reference internal" href="_modules/house_prices/data_processor.html#DataProcessor.save_to_catalog"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#house_prices.data_processor.DataProcessor.save_to_catalog" title="Link to this definition"></a></dt>
+<dd><p>Save the train and test sets into Databricks tables.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>train_set</strong> – The training DataFrame to be saved.</p></li>
+<li><p><strong>test_set</strong> – The test DataFrame to be saved.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="house_prices.data_processor.DataProcessor.split_data">
+<span class="sig-name descname"><span class="pre">split_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">test_size</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0.2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">random_state</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">42</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">DataFrame</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">DataFrame</span><span class="p"><span class="pre">]</span></span></span></span><a class="reference internal" href="_modules/house_prices/data_processor.html#DataProcessor.split_data"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#house_prices.data_processor.DataProcessor.split_data" title="Link to this definition"></a></dt>
+<dd><p>Split the DataFrame (self.df) into training and test sets.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>test_size</strong> – The proportion of the dataset to include in the test split.</p></li>
+<li><p><strong>random_state</strong> – Controls the shuffling applied to the data before applying the split.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A tuple containing the training and test DataFrames.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-house_prices.utils">
+<span id="house-prices-utils-module"></span><h2>house_prices.utils module<a class="headerlink" href="#module-house_prices.utils" title="Link to this heading"></a></h2>
+<p>Utility class.</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="house_prices.utils.adjust_predictions">
+<span class="sig-prename descclassname"><span class="pre">house_prices.utils.</span></span><span class="sig-name descname"><span class="pre">adjust_predictions</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">predictions</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">scale_factor</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1.3</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">ndarray</span></span></span><a class="reference internal" href="_modules/house_prices/utils.html#adjust_predictions"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#house_prices.utils.adjust_predictions" title="Link to this definition"></a></dt>
+<dd><p>Adjust predictions by multiplying them with a scale factor.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>predictions</strong> – Array of predictions to be adjusted</p></li>
+<li><p><strong>scale_factor</strong> – Factor to scale the predictions by</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Adjusted predictions array</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="module-house_prices">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-house_prices" title="Link to this heading"></a></h2>
+<p>House price package.</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="house_prices.get_version">
+<span class="sig-prename descclassname"><span class="pre">house_prices.</span></span><span class="sig-name descname"><span class="pre">get_version</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="reference internal" href="_modules/house_prices.html#get_version"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#house_prices.get_version" title="Link to this definition"></a></dt>
+<dd><p>Retrieve the version of the package.</p>
+<p>This function attempts to read the version from the installed package,
+and if not found, reads it from a version.txt file.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>The version string of the package.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="modules.html" class="btn btn-neutral float-left" title="house_prices" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="house_prices.models.html" class="btn btn-neutral float-right" title="house_prices.models package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, MLLAB.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
