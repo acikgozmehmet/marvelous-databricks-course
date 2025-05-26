@@ -27,6 +27,19 @@ tasks:
         - uv sync --extra test
         # - source .venv/Scripts/activate && uv sync --extra test # Activate and sync
 
+  sync-doc:
+    desc: Sync only documentation dependencies
+    cmds:
+        # - rm -rf .venv
+        # - task: create-venv
+        - task: sync-test
+        # - uv sync --extra doc
+        # - uv pip install -r pyproject.toml
+        - uv pip install -r pyproject.toml --all-extras --link-mode=copy  --no-cache-dir
+        - uv pip install -e . --link-mode=copy  --no-cache-dir
+        - ./make_doc.sh {{.PACKAGE_IMPORT_NAME}}
+
+
   lint:
     desc: Run pre-commit hooks
     cmds:
