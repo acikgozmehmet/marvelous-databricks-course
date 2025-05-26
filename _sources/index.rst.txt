@@ -15,11 +15,12 @@ documentation for details.
    :caption: Getting Started:
 
    resources/getting_started.rst
-
+   resources/page1.rst
+   resources/page2.rst
 
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: SOURCE CODE:
 
    modules
